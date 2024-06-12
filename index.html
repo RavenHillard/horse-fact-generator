@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SheCodes</title>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <title>Horse Fact Generator</title>
+  </head>
+  <body>
+    <header>
+      <h1>Horse Fact Generator</h1>
+    </header>
+    <div class="container">
+      <form id="horsefact-generator-form">
+        <input
+          type="text"
+          placeholder="Enter topic..."
+          autofocus
+          class="prompt"
+          required
+          id="user-information"
+        />
+        <input type="submit" value="Submit" class="submit-button" />
+      </form>
+      <div class="example">i.e. Breed, Hooves, Diet</div>
+    </div>
+
+    <div class="facts hidden" id="facts"></div>
+    <footer>
+      Made with 🤍 by
+      <a href="https://github.com/RavenHillard" target="_blank"
+        >Raven Hillard</a
+      >
+      and is open sourced on
+      <a href="https://github.com/RavenHillard/World-Clock.git" target="_blank">
+        GitHub</a
+      >
+      and is hosted on
+      <a href="https://aipoem-generator.netlify.app/" target="_blank"
+        >Netlify</a
+      >
+    </footer>
+    <script src="src/index.js"></script>
+  </body>
+</html>

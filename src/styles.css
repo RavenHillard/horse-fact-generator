@@ -1,0 +1,96 @@
+body {
+  background-color: rgba(236, 164, 106, 0.806);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.container {
+  padding: 20px;
+  background-color: rgba(243, 140, 56, 0.7);
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.prompt {
+  padding: 13px;
+  font-size: 14px;
+  border: none;
+  width: 70%;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.submit-button {
+  padding: 13px 26px;
+  font-size: 14px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.example {
+  font-size: 10px;
+  opacity: 0.6;
+  display: block;
+  margin-top: 5px;
+}
+
+.hidden {
+  display: none;
+}
+.facts {
+  background-color: rgba(248, 243, 243, 0.7);
+  padding: 13px;
+  border-radius: 5px;
+  max-width: 510px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-left: 6px solid rgba(243, 140, 56, 0.7);
+  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+  color: #42493d;
+  font-style: italic;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 12px;
+  color: rgba(65, 70, 62, 0.8);
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
